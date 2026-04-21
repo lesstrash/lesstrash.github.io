@@ -161,7 +161,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "China/Shanghai"
+timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -202,6 +202,10 @@ exclude:
   - Vagrantfile
   - vendor
   - .bundle
+  - doc
+  - _site_baseline
+  - node_modules
+  - .github
 
 # prose.io config
 prose:
